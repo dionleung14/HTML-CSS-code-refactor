@@ -22,6 +22,10 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -36,14 +40,14 @@ li {
     margin-left: 25px;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,35 +55,26 @@ li {
     font-size: 20px;
 }
 
-.seo {
+span {
     color: #d9dcd6;
 }
 
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    display: block;
 }
 
-.content {
+content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.content div {
+content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -88,17 +83,26 @@ li {
     color: #ffffff;
 }
 
-#search-engine-optimization img, #social-media-marketing img {
+content img {
+    max-height: 200px;
+}
+
+content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
     float: left;
     margin-right: 25px;
 }
 
-#online-reputation-management img{
+.float-right {
     float: right;
     margin-left: 25px;
 }
 
-.benefits {
+article {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -109,24 +113,20 @@ li {
     background-color: #2589bd;
 }
 
-.benefits img {
+article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefits div {
+article div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
